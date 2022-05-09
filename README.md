@@ -7,7 +7,6 @@ cProfile for profiling
 
 snakeviz {method_name}.prof for viewing
 
-
 EDSR
 ![image](https://user-images.githubusercontent.com/85248151/167438474-ab4abe3b-b67c-495f-8805-30078edbe24a.png)
 
