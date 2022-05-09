@@ -3,7 +3,7 @@ Imperial College FPGA ML acceleration project
 
 # super resolution
 
-using cProfile for profiling
+cProfile for profiling
 
 snakeviz {method_name}.prof for viewing
 
