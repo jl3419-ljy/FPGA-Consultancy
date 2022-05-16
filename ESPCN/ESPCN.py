@@ -1,12 +1,14 @@
 import cv2
 import matplotlib.pyplot as plt
+import cProfile
 
-img = cv2.imread("Test-image.png")
+img = cv2.imread("test-image.png")
 print(cv2.__version__)
 sr = cv2.dnn_superres.DnnSuperResImpl_create()
 path = "ESPCN_x3.pb"
 sr.readModel(path)
 sr.setModel("espcn",3)
+cProfile.run('sr.upsample(img)')
 result = sr.upsample(img)
 # Resized image
 resized = cv2.resize(img,dsize=None,fx=3,fy=3)
