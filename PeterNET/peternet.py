@@ -5,11 +5,11 @@ import math
 import numpy as np
 
 from tensorflow import keras
-from tensorflow.keras import layers
-from tensorflow.keras.preprocessing.image import load_img
-from tensorflow.keras.preprocessing.image import array_to_img
-from tensorflow.keras.preprocessing.image import img_to_array
-from tensorflow.keras.preprocessing import image_dataset_from_directory
+from keras import layers
+from keras.utils import load_img
+from keras.utils import array_to_img
+from keras.utils import img_to_array
+from keras.utils import image_dataset_from_directory
 
 from IPython.display import display
 

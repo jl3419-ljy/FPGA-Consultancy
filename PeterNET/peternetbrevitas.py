@@ -3,6 +3,8 @@ from torch import nn
 from torch.utils.data import DataLoader
 from torchvision import datasets
 from torchvision.transforms import ToTensor
+import brevitas.nn as qnn
+from brevitas.export import FINNManager
 
 # Download training data from open datasets.
 training_data = datasets.FashionMNIST(
@@ -44,11 +46,11 @@ class NeuralNetwork(nn.Module):
         super(NeuralNetwork, self).__init__()
         self.flatten = nn.Flatten()
         self.linear_relu_stack = nn.Sequential(
-            nn.Linear(28*28, 512, bias=False),
-            nn.ReLU(),
-            nn.Linear(512, 512, bias=False),
-            nn.ReLU(),
-            nn.Linear(512, 10, bias=False),
+            qnn.QuantLinear(28*28, 512, bias=False, num_bits=bit_width, return_quant_tensor=True, weight_bit_width=bit_width),
+            qnn.QuantReLU(bit_width=bit_width,return_quant_tensor=True, weight_bit_width=bit_width),
+            qnn.QuantLinear(512, 512, bias=False, num_bits=bit_width, return_quant_tensor=True, weight_bit_width=bit_width),
+            qnn.QuantReLU(bit_width=bit_width,return_quant_tensor=True, weight_bit_width=bit_width),
+            qnn.QuantLinear(512, 10, bias=False, num_bits=bit_width, return_quant_tensor=True, weight_bit_width=bit_width),
         )
 
     def forward(self, x):
@@ -64,23 +66,23 @@ loss_fn = nn.CrossEntropyLoss()
 optimizer = torch.optim.SGD(model.parameters(), lr=1e-3)
 
 
-def train(dataloader, _model, _loss_fn, _optimizer):
+def train(dataloader, model, loss_fn, optimizer):
     size = len(dataloader.dataset)
-    _model.train()
-    for batch, (_X, _y) in enumerate(dataloader):
-        _X, _y = _X.to(device), _y.to(device)
+    model.train()
+    for batch, (X, y) in enumerate(dataloader):
+        X, y = X.to(device), y.to(device)
 
         # Compute prediction error
-        pred = _model(_X)
-        loss = _loss_fn(pred, _y)
+        pred = model(X)
+        loss = loss_fn(pred, y)
 
         # Backpropagation
-        _optimizer.zero_grad()
+        optimizer.zero_grad()
         loss.backward()
-        _optimizer.step()
+        optimizer.step()
 
         if batch % 100 == 0:
-            loss, current = loss.item(), batch * len(_X)
+            loss, current = loss.item(), batch * len(X)
             print(f"loss: {loss:>7f}  [{current:>5d}/{size:>5d}]")
 
 
@@ -112,4 +114,5 @@ torch.save(model.state_dict(), "model.pth")
 print("Saved PyTorch Model State to model.pth")
 
 ONNX = NeuralNetwork()
+FINNManager.export(ONNX, input_shape=(1, 1, 28, 28), export_path='model.onnx')
 
