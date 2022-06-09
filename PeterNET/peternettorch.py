@@ -139,4 +139,3 @@ torch.save(model.state_dict(), "model2.pth")
 print("Saved PyTorch Model State to model.pth")
 
 Convert_ONNX() 
-
