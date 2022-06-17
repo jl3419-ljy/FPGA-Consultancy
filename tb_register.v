@@ -51,7 +51,18 @@ initial
         dina = 16'h3f80;
         addra = 6'b000010;
         #200
+        wea = 1'b1;
+        dina = 16'h4208;
+        addra = 6'b000011;
+        #200
         wea = 1'b0;
+        dina = 16'h0000;
+        addra = 6'b000010;
+        #200
+        wea = 1'b0;
+        dina = 16'h0000;
+        addra = 6'b000011;
+        
         
 		$display($time, "<< Simulation Complete >>");
 		$stop;         
