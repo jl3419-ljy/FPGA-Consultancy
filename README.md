@@ -14,6 +14,13 @@ This project aims to introduce an extension to the TensorFlow library to use har
   
 </font>
 
+## Requirements
+ 
+- TensorFlow
+- Numpy
+- PYNQ Z1 board
+
+
 ## Hardware IPs
 
 <font size = 4>
