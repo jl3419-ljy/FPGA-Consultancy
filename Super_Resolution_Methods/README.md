@@ -2,7 +2,7 @@
 
 ## Application: Super Resolution (SuperRes)
 
-There are four most common deep learning algorithms for upscaling images such as EDSR, ESPCN, FSRCNN, LapSRN. More information about those algorithms can be found [here](https://learnopencv.com/super-resolution-in-opencv/).
+There are four most common deep learning algorithms for upscaling images including EDSR, ESPCN, FSRCNN and LapSRN. More information about those algorithms can be found [here](https://learnopencv.com/super-resolution-in-opencv/).
 
 ## Profiling
 
