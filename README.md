@@ -21,3 +21,7 @@ More information about those algorithms can be found [here](https://learnopencv.
   
 </font>
 
+## References
+[1]**"Super Resolution in OpenCV"**, Lipi Patnaik, Vardan Agarwal [website](https://learnopencv.com/super-resolution-in-opencv/)
+[2]**"TF-ESPCN"**,fannymonori [Github](https://github.com/fannymonori/TF-ESPCN)
+[3]**"DSP for FPGA: Custom AXI4-Stream FIR filter IP in Vivado"** , Whitney Knitter [website](https://www.hackster.io/whitney-knitter/dsp-for-fpga-custom-axi4-stream-fir-filter-ip-in-vivado-0d4a39)
