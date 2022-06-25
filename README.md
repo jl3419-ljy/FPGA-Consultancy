@@ -26,7 +26,7 @@ More information about Super Resolution methods can be found [here](https://gith
 
 <font size = 4>
   
-More information about software can be found [here]().
+More information about software can be found [here](https://github.com/Terrortorpe/FPGA-Consultancy/blob/clean/Super_Resolution_Models/README.md).
   
 </font>
 
