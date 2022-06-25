@@ -1,4 +1,4 @@
-# Super Resolution Methods
+# Super Resolution Methods (Jingyi Liang)
 
 ## Application: Super Resolution (SuperRes)
 
