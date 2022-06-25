@@ -20,14 +20,30 @@ This project aims to introduce an extension to the TensorFlow library to use har
 - Numpy
 - PYNQ Z1 board
 
-
-## Hardware IPs
+## Software
 
 <font size = 4>
-
-Custom IPs are created to accelerate the application on FPGA.
+  
+More information about Software can be found [here]().
   
 </font>
+
+## Hardware 
+
+<font size = 4>
+  
+More information about Custom IPs can be found [here]().
+  
+</font>
+
+## Connection between Software and Hardware
+
+<font size = 4>
+  
+More information about data flow between FPGA and CPU can be found [here]().
+  
+</font>
+
 
 ## References
 <font size = 2>
