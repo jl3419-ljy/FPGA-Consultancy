@@ -25,7 +25,7 @@ ESPCN network is chosen d
 
 
 ## References
-<font size = 3>
+<font size = 2>
   
 [1]**"Super Resolution in OpenCV"**, Lipi Patnaik, Vardan Agarwal [[website]](https://learnopencv.com/super-resolution-in-opencv/)
 
