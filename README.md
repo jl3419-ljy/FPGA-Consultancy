@@ -42,7 +42,7 @@ More information about custom IPs can be found [here]().
 
 <font size = 4>
   
-More information about data flow between FPGA and CPU can be found [here]().
+More information about data flow between FPGA and CPU can be found [here](https://github.com/Terrortorpe/FPGA-Consultancy/blob/clean/Super_Resolution_Connection/README.md).
   
 </font>
 
