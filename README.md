@@ -21,14 +21,19 @@ More information about those algorithms can be found [here](https://learnopencv.
   
 </font>
 
+ESPCN network is chosen d
+
+
 ## References
 <font size = 3>
   
-[1]**"Super Resolution in OpenCV"**, Lipi Patnaik, Vardan Agarwal [website](https://learnopencv.com/super-resolution-in-opencv/)
+[1]**"Super Resolution in OpenCV"**, Lipi Patnaik, Vardan Agarwal [[website]](https://learnopencv.com/super-resolution-in-opencv/)
 
-[2]**"TF-ESPCN"**,fannymonori [Github](https://github.com/fannymonori/TF-ESPCN)
+[2]**"TF-ESPCN"**,fannymonori [[Github]](https://github.com/fannymonori/TF-ESPCN)
 
-[3]**"DSP for FPGA: Custom AXI4-Stream FIR filter IP in Vivado"** , Whitney Knitter [website](https://www.hackster.io/whitney-knitter/dsp-for-fpga-custom-axi4-stream-fir-filter-ip-in-vivado-0d4a39)
+[3]**"DSP for FPGA: Custom AXI4-Stream FIR filter IP in Vivado"** , Whitney Knitter [[website]](https://www.hackster.io/whitney-knitter/dsp-for-fpga-custom-axi4-stream-fir-filter-ip-in-vivado-0d4a39)
+  
+[4]**"An Overview of ESPCN: An Efficient Sub-pixel Convolutional Neural Network"** , zhuo Cen [[website]](https://medium.com/@zhuocen93/an-overview-of-espcn-an-efficient-sub-pixel-convolutional-neural-network-b76d0a6c875e#:~:text=ESPCN%20can%20be%20seen%20as,the%20last%20pixel%20shuffle%20stage.)
   
   
 </font>
