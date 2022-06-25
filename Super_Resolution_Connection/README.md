@@ -1,1 +1,1 @@
-# Connection (Xin Sun)
+# Super_Resolution_Connection (Xin Sun)
