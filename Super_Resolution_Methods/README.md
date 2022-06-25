@@ -1,6 +1,8 @@
 # Super Resolution Methods
 
-## Profiling for each methods
+##
+
+## Profiling
 
 **cProfile** is a built-in python module that can perform profiling, it is used to profile four types of super resolution method.
 
