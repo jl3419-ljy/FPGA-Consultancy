@@ -8,7 +8,7 @@ This project aims to introduce an extension to the TensorFlow library to use har
 
 ## Application: Super Resolution (SuperRes)
 
-<font size = 5>
+<font size = 7>
   
 **Motivation:** With the advancement in machine learning techniques in recent years, machine learning algorithm based super resolution has been actively explored. Super resolution imaging is a technique that enhances the resolution of an image or video. In addition to enhancing image quality, we want to minimize the execution time of the upscaling algorithm, this is where FPGA comes into play. Since FPGAs are good for intensive data computation and static parallel tasks, it provides a faster approach for image processing.
   
