@@ -1,6 +1,8 @@
 # Super Resolution Methods
 
-##
+## Application: Super Resolution (SuperRes)
+
+There are four most common deep learning algorithms for upscaling images such as EDSR, ESPCN, FSRCNN, LapSRN. More information about those algorithms can be found here.
 
 ## Profiling
 
