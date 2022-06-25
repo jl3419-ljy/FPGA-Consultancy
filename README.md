@@ -22,7 +22,7 @@ More information about those algorithms can be found [here](https://learnopencv.
 </font>
 
 ## References
-<font size = 4>
+<font size = 3>
   
 [1]**"Super Resolution in OpenCV"**, Lipi Patnaik, Vardan Agarwal [website](https://learnopencv.com/super-resolution-in-opencv/)
 
