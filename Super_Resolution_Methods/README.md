@@ -1,20 +1,30 @@
-# FPGA-Consultancy
-Imperial College FPGA ML acceleration project
+# Super Resolution Methods
 
-# super resolution
+## 
 
-cProfile for profiling
+## Profiling for each methods
 
-snakeviz {method_name}.prof for viewing
+**cProfile** is a built-in python module that can perform profiling, it is used to profile four types of super resolution method.
+
+The profiling result is shown below.
+
+This command is used for viewing the profiling result, the .prof files are included in the folders.
+
+    snakeviz {method_name}.prof 
+
 
 EDSR
-![image](https://user-images.githubusercontent.com/85248151/167438474-ab4abe3b-b67c-495f-8805-30078edbe24a.png)
+![image](https://user-images.githubusercontent.com/85248151/175776908-79b19cc9-6d2a-4630-b81f-cb4ebab6dc4c.png)
+
 
 ESPCN
-![image](https://user-images.githubusercontent.com/85248151/167438234-d57bd41e-3268-48ab-9a1b-540fefb8355e.png)
+![image](https://user-images.githubusercontent.com/85248151/175776958-61bf77da-a668-4cd8-8a08-8794ef17c172.png)
+
 
 FSRCNN
-![image](https://user-images.githubusercontent.com/85248151/167438598-135e365d-1d63-4a31-9ba0-5584aea19e72.png)
+![image](https://user-images.githubusercontent.com/85248151/175777012-08144f6f-1969-48c4-b0f0-ea9e83af37b9.png)
+
 
 LapSRN
-![image](https://user-images.githubusercontent.com/85248151/167438666-cff0a6e7-dafc-4ad5-8adc-a640d614d465.png)
+![image](https://user-images.githubusercontent.com/85248151/175777050-94fd3d0e-2b35-401d-b55f-c5f853582ec8.png)
+
