@@ -26,7 +26,7 @@ More information about Super Resolution methods can be found [here](https://gith
 
 <font size = 4>
   
-More information about Software can be found [here]().
+More information about software can be found [here]().
   
 </font>
 
@@ -34,7 +34,7 @@ More information about Software can be found [here]().
 
 <font size = 4>
   
-More information about Custom IPs can be found [here]().
+More information about custom IPs can be found [here]().
   
 </font>
 
