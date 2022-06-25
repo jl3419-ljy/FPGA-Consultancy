@@ -2,7 +2,15 @@
 
 ## Application: Super Resolution (SuperRes)
 
-There are four most common deep learning algorithms for upscaling images including EDSR, ESPCN, FSRCNN and LapSRN. More information about those algorithms can be found [here](https://learnopencv.com/super-resolution-in-opencv/).
+<font size = 4>
+
+There are four most common deep learning algorithms for upscaling images such as EDSR, ESPCN, FSRCNN, LapSRN.
+More information about those algorithms can be found [here](https://learnopencv.com/super-resolution-in-opencv/).
+
+ESPCN network is chosen to be our super resolution method. In ESPCN, the upscaling step is handled by the last layer, so the computational complexity for the previous layers are greatly reduced which is favourable. The sourcecode for the ESPCN model can be found [here](https://keras.io/examples/vision/super_resolution_sub_pixel/).
+    
+</font>
+
 
 ## Profiling
 
@@ -31,6 +39,5 @@ The screenshot of the profiling results are shown below.
 **LapSRN**
 ![image](https://user-images.githubusercontent.com/85248151/175777050-94fd3d0e-2b35-401d-b55f-c5f853582ec8.png)
 
-## ESPCN
 
 
