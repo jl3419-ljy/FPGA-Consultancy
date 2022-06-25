@@ -21,7 +21,7 @@ More information about those algorithms can be found [here](https://learnopencv.
   
 </font>
 
-ESPCN network is chosen d
+ESPCN network is chosen to be our super resolution method. In ESPCN, the upscaling step is handled by the last layer, so the computational complexity for the previous layers are greatly reduced which is favourable. The sourcecode for the ESPCN model can be found [here](https://keras.io/examples/vision/super_resolution_sub_pixel/).
 
 
 ## References
