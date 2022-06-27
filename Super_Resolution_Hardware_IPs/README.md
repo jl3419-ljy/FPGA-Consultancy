@@ -21,6 +21,7 @@ Given the result of profiling, convolutional layers of ESPCN take the most of ti
  
 </font>
 
+<img src="network.jpg" width="600" height="200" />
 
 ## Input and output
 
