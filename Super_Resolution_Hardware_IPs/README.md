@@ -6,11 +6,11 @@ According to the profiling result, the first convolutional layer of ESPCN takes 
 
 **Custom IPs**
  
-Input: FSM_wrapper.v
+**Input:** FSM_wrapper.v
  
-Conv_layer: padding.v, conv_testing.v
+**Conv_layer:** padding.v, conv_testing.v
  
-Output: splitting.v
+**Output:** splitting.v
  
 
 </font>
