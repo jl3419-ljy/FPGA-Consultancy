@@ -8,4 +8,4 @@ Given the result of profiling, the convolutional layers of ESPCN are taking the 
  
 **profiling result**
 
-<img src="profiling_result.jpg" width="500" height="200" />
+<img src="profiling_result.jpg" width="600" height="200" />
