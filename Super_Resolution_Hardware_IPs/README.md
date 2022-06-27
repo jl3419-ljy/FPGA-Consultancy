@@ -8,4 +8,5 @@ Given the result of profiling, the convolutional layers of ESPCN are taking the 
  
 **profiling result**
 
+<img src="profiling_result.jpg" width="400" height="250" />
 ![image](https://github.com/Terrortorpe/FPGA-Consultancy/blob/clean/Super_Resolution_Hardware_IPs/profiling_result.jpg)
