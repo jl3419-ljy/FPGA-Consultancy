@@ -8,8 +8,12 @@ There are four most common deep learning algorithms for upscaling images such as
 More information about those algorithms can be found [here](https://learnopencv.com/super-resolution-in-opencv/).
 
 ESPCN network is chosen to be our super resolution method. In ESPCN, the upscaling step is handled by the last layer, so the computational complexity for the previous layers are greatly reduced which is favourable. The sourcecode for the ESPCN model can be found [here](https://keras.io/examples/vision/super_resolution_sub_pixel/).
-    
+
+** SuperRes profiling result**
+
+
 </font>
+
 
 
 ## Profiling
