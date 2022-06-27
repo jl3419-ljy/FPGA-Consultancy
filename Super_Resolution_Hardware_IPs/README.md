@@ -15,6 +15,5 @@ Given the result of profiling, the convolutional layers of ESPCN are taking the 
 
 
 
-## Input and output wrapper
-
+## Input and output
 
