@@ -11,6 +11,7 @@ ESPCN network is chosen to be our super resolution method. In ESPCN, the upscali
 
 ** SuperRes profiling result**
 
+ <img src="profiling_result.jpg" width="600" height="200" />
 
 </font>
 
