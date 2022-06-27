@@ -9,27 +9,23 @@ According to the profiling result, the first convolutional layer of ESPCN takes 
  
 **Input:** FSM_wrapper.v
  
-**Conv_layer:** padding.v, conv_testing.v, ReLU.v
+**Conv_layer:** padding.v, conv_layer.v, ReLU.v
  
 **Output:** splitting.v
  
 
 </font>
 
-## ESPCN Convolution Neural Network
+
+## 2D Convolutional layer
 
 <font size = 4>
  
-- The ESPCN network has 4 hidden layers, the output is the same size as the input for each layer. Therefore, zero padding is required.
-- ESPCN increases the resolution of the image at the last layer of the neural network, this reduces the computational complexity.
-- The last layer is the efficient sub-pixel convolutional layer to recover the output image size with a specified upscale factor.
-- The architecture of the ESPCN convolution neural network is shown below.
- 
+The idea of a 2D convolutional layer is that the convolution filters slide over the 2D input data and peroforming an elementwise multiplication, the results will then be summing up into a single output data. 
+
+The custom conv_layer IP takes in a long 1d array of size imageWidth*imageHeigth*wordlength *since Verilog does not support 2d arrays as ports of modules*, then it will be converted into a 2d
+
 </font>
-
- <img src="network.jpg" width="600" height="200" />
- 
-
  
 
 ## Input and output
