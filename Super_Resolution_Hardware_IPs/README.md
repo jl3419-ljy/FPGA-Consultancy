@@ -2,13 +2,9 @@
 
 <font size = 4>
 
-Given the result of profiling, convolutional layers of ESPCN take the most of time. Therefore, Vivado 2022.2 is used to re-design the convolutional layer of ESPCN on hardware to accelerate the application. 
+According to the profiling result, the first convolutional layer of ESPCN takes about 40% of total time, so we want to re-design the first convolutional layer in hardware using Vivado 2022.2. More information about profiling can be found [here](). 
  
 </font>
- 
-**profiling result**
-
-<img src="profiling_result.jpg" width="600" height="200" />
 
 ## ESPCN Convolution Neural Network
 
