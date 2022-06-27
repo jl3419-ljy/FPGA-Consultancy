@@ -23,7 +23,7 @@ According to the profiling result, the first convolutional layer of ESPCN takes 
  
 The idea of a 2D convolutional layer is that the convolution filters slide over the 2D input data and peroforming an elementwise multiplication, the results will then be summing up into a single output data. 
 
-The custom conv_layer IP takes in a long 1d array of size $imageWidth\timesimageHeigth\timeswordlength& (since Verilog does not support 2d arrays as ports of modules), then it will be converted into a 2d
+The custom conv_layer IP takes in a long 1d array of size $imageWidth\times imageHeigth\times wordlength$ (since Verilog does not support 2d arrays as ports of modules), then it will be converted into a 2d
 
 </font>
  
