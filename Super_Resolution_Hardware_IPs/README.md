@@ -2,7 +2,7 @@
 
 <font size = 4>
 
-Given the result of profiling, convolutional layers of ESPCN take the most of time. Therefore, I use Vivado 2022.2 to re-design the convolutional layer of ESPCN on hardware to accelerate the application. 
+Given the result of profiling, convolutional layers of ESPCN take the most of time. Therefore, Vivado 2022.2 is used to re-design the convolutional layer of ESPCN on hardware to accelerate the application. 
  
 </font>
  
@@ -22,6 +22,9 @@ Given the result of profiling, convolutional layers of ESPCN take the most of ti
 </font>
 
  <img src="network.jpg" width="600" height="200" />
+ 
+
+ 
 
 ## Input and output
 
