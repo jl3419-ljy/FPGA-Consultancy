@@ -51,7 +51,7 @@ More information about data flow between FPGA and CPU can be found [here](https:
 
 <font size = 4>
   
-More information about data flow between FPGA and CPU can be found [here]().
+More information about data flow between FPGA and CPU can be found [here](https://github.com/Terrortorpe/FPGA-Consultancy/tree/clean/Super_Resolution_Display).
   
 </font>
 
