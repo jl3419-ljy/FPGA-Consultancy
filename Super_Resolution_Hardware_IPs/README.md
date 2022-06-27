@@ -3,7 +3,12 @@
 <font size = 4>
 
 According to the profiling result, the first convolutional layer of ESPCN takes about 40% of total time, so we want to re-design the first convolutional layer in hardware using Vivado 2022.2. More information about profiling can be found [here](https://github.com/Terrortorpe/FPGA-Consultancy/tree/clean/Super_Resolution_Methods). 
- 
+
+**Custom IPs**
+Input: FSM_wrapper.v
+Conv_layer: padding.v, conv_testing.v
+Output: splitting.v
+
 </font>
 
 ## ESPCN Convolution Neural Network
