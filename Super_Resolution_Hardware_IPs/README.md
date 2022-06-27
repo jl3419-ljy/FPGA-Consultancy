@@ -23,7 +23,7 @@ According to the profiling result, the first convolutional layer of ESPCN takes 
  
 The idea of a 2D convolutional layer is that the convolution filters slide over the 2D input data and peroforming an elementwise multiplication, the results will then be summing up into a single output data. 
 
-The custom conv_layer IP takes in a long 1d array of size $imageWidth\times imageHeigth\times wordlength$, it will be converted into a 2d array to be ready for the convolution operation. Then, floating point multipliers are instantiated to perform an elementwise multiplication, and floating point adders are used to summing up the results to give the 2D output. Eventually, the 2d output array will be converted back to a 1d array of size  $(imageWidth-kernalSize+1)\times (imageHeigth-kernalSize+1)\times wordlength$.
+The custom conv_layer IP takes in a long 1d array of size  $imageWidth\times imageHeigth\times wordlength$ , it will be converted into a 2d array to be ready for the convolution operation. Then, floating point multipliers are instantiated to perform an elementwise multiplication, and floating point adders are used to summing up the results to give the 2D output. Eventually, the 2d output array will be converted back to a 1d array of size  $(imageWidth-kernalSize+1)\times (imageHeigth-kernalSize+1)\times wordlength$ .
 
 </font>
  
