@@ -40,19 +40,6 @@ The screenshot of the profiling results are shown below.
 ![image](https://user-images.githubusercontent.com/85248151/175777050-94fd3d0e-2b35-401d-b55f-c5f853582ec8.png)
 
 
-## ESPCN Convolution Neural Network
-
-<font size = 4>
- 
-- The ESPCN network has 4 hidden layers, the output is the same size as the input for each layer. Therefore, zero padding is required.
-- ESPCN increases the resolution of the image at the last layer of the neural network, this reduces the computational complexity.
-- The last layer is the efficient sub-pixel convolutional layer to recover the output image size with a specified upscale factor.
-- The architecture of the ESPCN convolution neural network is shown below.
- 
-</font>
-
- <img src="network.jpg" width="600" height="200" />
- 
 
 
 
