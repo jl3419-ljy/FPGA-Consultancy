@@ -56,7 +56,7 @@ The ESPCN nerual network has the "same" padding and the stride is one, which mea
 - For kernal size of 3, one layer of pixel of zeros are added to the surrounding of the image. 
 - For kernal size of 5, two layers of pixel of zeros are added to the surrounding of the image.
  
- 
+ <img src="padding_pic.png" width="250" height="190" /> 
 
 </font>
 
