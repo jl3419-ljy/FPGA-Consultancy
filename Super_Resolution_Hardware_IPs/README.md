@@ -64,7 +64,21 @@ The ESPCN nerual network has the "same" padding and the stride is one, which mea
 
 <font size = 4>
 
- <img src="hw_flow.png" width="900" height="200" /> 
+Pixel data are transferred between FPGA and CPU using AXI stream, it is always used for high speed streaming data. Since there are limited amount of IOs available on PYNQ Z1 board, one pixel is read or write per one cycle. We can proceed to the next step until all the pixels in the image are read. 
+
+**FSM_wrapper.v**
+
+- The input stage is implemented using custom FSM_wrapper.v IP, it consist a counter and a state machine. 
+- The state machine has three states A, B and C, state A is idle state, once the read enable signal is high, it goes to state B. Then if done signal is low, it will goes to state C, at this state, axi stream can read data into the register.
+- Until all the data are read, the done signal goes high, and the state machine goes back to state A.
+
+**splitting.v**
+
+- 
+- 
+
+
+<img src="hw_flow.png" width="900" height="200" /> 
 
 </font>
 
