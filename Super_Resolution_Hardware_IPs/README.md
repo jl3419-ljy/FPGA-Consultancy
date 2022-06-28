@@ -74,10 +74,13 @@ Pixel data are transferred between FPGA and CPU using AXI stream, it is always u
 
 **splitting.v**
 
-- 
-- 
+- The output state is implemented using splitting.v IP, it consist a counter.
+- While write enable signal is high, axi stream starts to read output data pixel by pixel, until all the output pixels are read, the write enable signal goes low.
 
-
+**top_level.v**
+ 
+- All the custom IPs are integrated to form the top_level.v IP, the architecture of the IP is shown below.
+ 
 <img src="hw_flow.png" width="900" height="200" /> 
 
 </font>
