@@ -29,7 +29,20 @@ The idea of a 2D convolutional layer is that the convolution filters slide over 
 - Eventually, the 2d output array will be converted back to a 1d array since verilog does not support 2d array as ports of modules, the size of the output array will be $(imageWidth-kernalSize+1)\times (imageHeigth-kernalSize+1)\times wordlength$ .
 
 </font>
- 
 
-## Input and output
+<img src="conv_pic.png" width="800" height="200" /> 
+
+## Relu
+
+<font size = 4>
+
+After convolution, a Relu activation function is applied to the output data to introduce non-linear properties to the neural network. The Relu activation function very simple, the curve of the function is shown below. While data is greater than zero, it is set to itself, else it is set to zero. 
+
+Hardware implementation: 
+
+- Since the pixel is signed 32-bit floating point, the most significant bit represent sign.
+- If the MSB is 0, it is set to itself.
+- If the MSB is 1, it is set to zero.
+
+</font>
 
