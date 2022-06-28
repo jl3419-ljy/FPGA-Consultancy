@@ -60,4 +60,12 @@ The ESPCN nerual network has the "same" padding and the stride is one, which mea
 
 </font>
 
+## Input and output
+
+<font size = 4>
+
+
+</font>
+
+
 
