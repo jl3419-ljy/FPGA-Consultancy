@@ -64,7 +64,6 @@ The ESPCN nerual network has the "same" padding and the stride is one, which mea
 
 <font size = 4>
 
- <img src="hw_flow.png" width="900" height="200" /> 
 
 </font>
 
