@@ -36,13 +36,25 @@ The idea of a 2D convolutional layer is that the convolution filters slide over 
 
 <font size = 4>
 
-After convolution, a Relu activation function is applied to the output data to introduce non-linear properties to the neural network. The Relu activation function very simple, the curve of the function is shown below. While data is greater than zero, it is set to itself, else it is set to zero. 
-
-Hardware implementation: 
+After convolution, a Relu activation function is applied to the output data to introduce non-linear properties to the neural network. The Relu activation function is very simple, the curve of the function is shown below. While data is greater than zero, it is set to itself, else it is set to zero.  
 
 - Since pixels are signed 32-bit floating point, the most significant bit represent sign.
 - If the MSB is 0, it is set to itself.
 - If the MSB is 1, it is set to zero.
 
 </font>
+
+<img src="Relu.png" width="250" height="190" /> 
+
+## Padding
+
+<font size = 4>
+
+The ESPCN nerual network has the "same" padding and the stride is one, which means the output size will be the same as the input size. Since everytime we do convolution, the size of the image will go smaller, an extra padding.v IP is implemented to preserve the original size of the image.
+
+- The ESPCN nerual network has kernal sizes of 3 or 5, the size of the kernals are odd number.
+- 
+
+</font>
+
 
