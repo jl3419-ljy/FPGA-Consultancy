@@ -40,7 +40,7 @@ After convolution, a Relu activation function is applied to the output data to i
 
 Hardware implementation: 
 
-- Since the pixel is signed 32-bit floating point, the most significant bit represent sign.
+- Since pixels are signed 32-bit floating point, the most significant bit represent sign.
 - If the MSB is 0, it is set to itself.
 - If the MSB is 1, it is set to zero.
 
