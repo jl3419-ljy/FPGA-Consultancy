@@ -38,7 +38,7 @@ The idea of a 2D convolutional layer is that the convolution filters slide over 
 
 After convolution, a Relu activation function is applied to the output data to introduce non-linear properties to the neural network. The Relu activation function is very simple, the curve of the function is shown below. While data is greater than zero, it is set to itself, else it is set to zero.  
 
-- Since pixels are signed 32-bit floating point, the most significant bit represent sign.
+- Since pixels are signed 32-bit floating point, the most significant bit represents sign.
 - If the MSB is 0, it is set to itself.
 - If the MSB is 1, it is set to zero.
 
