@@ -68,14 +68,15 @@ Pixel data are transferred between FPGA and CPU using AXI stream, it is always u
 
 **FSM_wrapper.v**
 
-- The input stage is implemented using custom FSM_wrapper.v IP, it consist a counter and a state machine. 
-- The state machine has three states A, B and C, state A is idle state, once the read enable signal is high, it goes to state B. Then if done signal is low, it will goes to state C, at this state, axi stream can read data into the register.
-- Until all the data are read, the done signal goes high, and the state machine goes back to state A.
+- The input stage is implemented using custom FSM_wrapper.v IP, it consists of a counter and a state machine. 
+- The state machine has three states A, B and C, state A is the idle state, once the read enable signal is high, it goes to state B. Then if the done signal is low, it will go to state C. At state C, data are read into the storage register sequentially through AXI stream. 
+- The counter counts the number of pixels that have been read into the register. Until all the data are read, the done signal goes high, and the state machine goes back to state A. 
 
 **splitting.v**
 
-- The output state is implemented using splitting.v IP, it consist a counter.
-- While write enable signal is high, axi stream starts to read output data pixel by pixel, until all the output pixels are read, the write enable signal goes low.
+- The output stage is implemented using splitting.v IP, it consists of a counter. 
+- While write enable signal is high, data are read back to memory sequentially through AXI stream. 
+- Until all the output pixels are written to the memory, the write enable signal goes low, the memory stops receiving data. 
 
 **top_level.v**
  
