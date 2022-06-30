@@ -50,7 +50,7 @@ After convolution, a Relu activation function is applied to the output data to i
 
 <font size = 4>
 
-The ESPCN neural network has the "same" padding and the stride is one, which means the output size will be the same as the input size. Since every time we do convolution, the size of the image will get smaller, an extra padding.v IP is implemented to preserve the original size of the image.
+The ESPCN neural network has the "same" padding and the stride is one, which means the output size will be the same as the input size. Since every time we do convolution, the sizes of the image will get smaller, an extra padding.v IP is implemented to preserve the original size of the image.
 
 - The ESPCN neural network has kernel sizes of 3 or 5, the size of the kernels are odd number.
 - For kernel size of 3, one layer of pixel of zeros are added to the surrounding of the image. 
