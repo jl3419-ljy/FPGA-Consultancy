@@ -64,15 +64,22 @@ The files of this Vitis HLS project can be found [here](https://github.com/Terro
 
 The Jupyter notebook can be found [here](https://github.com/Terrortorpe/FPGA-Consultancy/tree/clean/Super_Resolution_Connection/Jupyter_Notebook_with_BIT_and_HWH)
 
+
+
 **Test Result**
 
+The ReLU function will output the input directly if it is positive (MSB = 0)
+
 ***Input (positive number)***
+
 
 <img width="333" alt="Screenshot 2022-06-28 at 20 52 06" src="https://user-images.githubusercontent.com/59886434/176272748-beeb3e4f-3978-4fe0-9443-4d285d4fcfcd.png">
 
 ***Output (positive number)***
 
 <img width="649" alt="Screenshot 2022-06-28 at 20 53 31" src="https://user-images.githubusercontent.com/59886434/176272958-ed4e8b99-5b64-4a00-be1e-846279116655.png">
+
+The ReLU function will output zero if it is positive (MSB = 1)
 
 ***Input (negative number)***
 
