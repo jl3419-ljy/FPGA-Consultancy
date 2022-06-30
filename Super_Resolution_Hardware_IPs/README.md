@@ -2,7 +2,7 @@
 
 <font size = 4>
 
-According to the profiling result, the first convolutional layer of ESPCN takes about 40% of total time, so we want to re-design the first convolutional layer in hardware using Vivado 2022.2. More information about profiling can be found [here](https://github.com/Terrortorpe/FPGA-Consultancy/tree/clean/Super_Resolution_Methods). 
+According to the profiling result, the Relu function of the first convolutional layer of ESPCN takes about 40% of total time, so we want to re-design the first convolutional layer in hardware using Vivado 2022.2. More information about profiling can be found [here](https://github.com/Terrortorpe/FPGA-Consultancy/tree/clean/Super_Resolution_Methods). 
 
 
 **All the custom IPs**
@@ -21,7 +21,7 @@ According to the profiling result, the first convolutional layer of ESPCN takes 
 
 <font size = 4>
  
-The idea of a 2D convolutional layer is that the convolution filters slide over the 2D input data and peroforming an elementwise multiplication, the results will then be summing up into a single output data. 
+The idea of a 2D convolutional layer is that the convolution filters slide over the 2D input data and perform an elementwise multiplication, the results will then be summed up into a single output data. 
 
 - The custom conv_layer IP takes in a 1d array of size $imageWidth\times imageHeigth\times wordlength$.
 - It will be converted into a 2d array to be ready for the convolution operation.
