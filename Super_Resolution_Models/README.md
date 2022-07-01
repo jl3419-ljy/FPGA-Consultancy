@@ -24,3 +24,4 @@ On a desktop computer, model inference for 3x upscaling of a 318x198 pixel image
 
 ![image](https://user-images.githubusercontent.com/59969246/176922203-5b5a095d-1464-4bd8-b5c4-a6c500efbad1.png)
 
+This would be enough for 27FPS so above the standard frequency for a standard movie
