@@ -38,9 +38,14 @@ Quantisation is applied to the original EPSCN TensorFlow code. There are two qua
     (random seed:1337)
   
 - **Performance Metric:**
+
   Sometime different run returns different average psnr, therefore I took two examples of them.
+  
   ![image](https://user-images.githubusercontent.com/46746329/176866095-6c0a73df-68df-4344-b92c-4b739f244eb2.png)
   The inference time is sample from the last test image of this random seed. It suggests that quantising the two/one layers before interpolation layer gives the best time/accuracy balance.
   
 - **Training Performance Graph:**
+
+These two results are similar because they have the same random seed, means that each train and valid set in each epoch compared to the another run time with the same random seed, is having the exact same images.
+
   ![5baef6e1b81e86919c17a93808c944e](https://user-images.githubusercontent.com/46746329/176866241-9ea1946e-528b-4706-84dd-735394488c56.png)
