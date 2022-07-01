@@ -1,1 +1,5 @@
 # Super_Resolution_Models (Peter Barabas)
+
+The PYNQ-Z1 board is designed to be used with PYNQ, an open-source framework that enables embedded programmers to exploit the capabilities of Xilinx Zynq All Programmable SoCs (APSoCs) without having to design programmable logic circuits. Instead the APSoC is programmed using Python, with the code developed and tested directly on the PYNQ-Z1. The programmable logic circuits are imported as hardware libraries and programmed through their APIs in essentially the same way that the software libraries are imported and programmed.
+
+The Python ecosystem has many machine learning frameworks to speed up the development and testing of machine learning applications, such as neural networks. In recent year neural networks have proven to be an easy to use and highly effective machine learning method, with the advent of specialised hardware, training neural nets became much faster which enabled researchers to use much bigger networks to tackle problems. One such problem was image processing, more specifically synthetically enhancing the quality of images that have already been taken by upscaling them to a higher resolution
