@@ -15,3 +15,7 @@ In order to use the network on the PYNQ-Z1 board, a compatible version of Pytorc
 In the current state of the PYNQ-Z1 image and the packages for the PYNQ OS, this is unfortunately not the case. As of writing this the recommended build process fails due to errors with the compiler, these errors have allegedly been fixed not long ago but the packages that include these changes have not yet been released to the apt package manager shipped with Ubuntu. Third party private package repositories do contain these updates but they are not available for the specific distribution of the PYNQ OS. Given a lot more effort and a deeper understanding of compilers and Ubuntu package management these problems may perhaps be solved without waiting for the packages to be updated but that is outside the scope of this project.
 
 More details on one of the main problems associated with building Pytorch can be found [here](https://github.com/google/XNNPACK/issues/1465)
+
+With building from source not begin feasible at the moment we resorted to using an old build of Pytorch made by our client, This is a full image of the operating system which contains a version of Pytorch 1.2.0 built on top of the PYNQ 2.4 image.
+
+This approach comes with a few drawbacks, such as the profiling library not being available in Pytorch 1.2.0 but as a benchmark for the network performance on the CPU, it is still a decent solution.
