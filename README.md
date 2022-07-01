@@ -10,7 +10,7 @@ This project aims to introduce an extension to the TensorFlow library to use har
 
 <font size = 4>
   
-**Motivation:** With the advancement in machine learning techniques in recent years, machine learning algorithm based super resolution has been actively explored. Super resolution imaging is a technique that enhances the resolution of an image or video. In addition to enhancing image quality, we want to minimize the execution time of the upscaling algorithm, this is where FPGA comes into play. Since FPGAs are good for intensive data computation and static parallel tasks, it provides a faster approach for image processing. 
+**Motivation:** With the advancement in machine learning techniques in recent years, machine learning based super resolution has been actively explored. Super resolution imaging is a technique that enhances the resolution of an image or video. In addition to enhancing image quality, we want to minimize the execution time of the upscaling algorithm, this is where FPGA comes into play. Since FPGAs are good for intensive data computation and static parallel tasks, as well as being very energy efficient they provide a way for embedded systems to reach the computational speed of desktop or server computers. 
   
 More information about Super Resolution methods can be found [here](https://github.com/Terrortorpe/FPGA-Consultancy/blob/clean/Super_Resolution_Methods/README.md).
   
@@ -18,9 +18,7 @@ More information about Super Resolution methods can be found [here](https://gith
 
 ## Requirements
  
-- TensorFlow
-- Numpy
-- PYNQ Z1 board
+- PYNQ Z1 board with the provided image
 
 ## Software
 
@@ -62,7 +60,7 @@ More information about data flow between FPGA and CPU can be found [here](https:
   
 [1]**"Super Resolution in OpenCV"**, Lipi Patnaik, Vardan Agarwal [[website]](https://learnopencv.com/super-resolution-in-opencv/)
 
-[2]**"TF-ESPCN"**,fannymonori [[Github]](https://github.com/fannymonori/TF-ESPCN)
+[2]**"TF-ESPCN"**,fannymonori [[Github]](https://github.com/yjn870/ESPCN-pytorch)
 
 [3]**"DSP for FPGA: Custom AXI4-Stream FIR filter IP in Vivado"** , Whitney Knitter [[website]](https://www.hackster.io/whitney-knitter/dsp-for-fpga-custom-axi4-stream-fir-filter-ip-in-vivado-0d4a39)
   
