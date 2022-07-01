@@ -28,6 +28,8 @@ Quantisation is applied to the original EPSCN TensorFlow code. There are two qua
 
   
 - **Post training quantised model:**
+  
+  The post training library can only be found in TensorFlow Lite, hence a converting function is also used to convert a generated baseline model into TensorFlow Lite version, and the trained weights are then quantised and saved.
   ![image](https://user-images.githubusercontent.com/46746329/176866814-c8dfffcb-6872-45ad-b10b-cdc02e211d2a.png)
 
 
