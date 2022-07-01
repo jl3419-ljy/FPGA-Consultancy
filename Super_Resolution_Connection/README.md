@@ -79,7 +79,7 @@ The ReLU function will output the input directly if it is positive (MSB = 0)
 
 <img width="649" alt="Screenshot 2022-06-28 at 20 53 31" src="https://user-images.githubusercontent.com/59886434/176272958-ed4e8b99-5b64-4a00-be1e-846279116655.png">
 
-The ReLU function will output zero if it is positive (MSB = 1)
+The ReLU function will output zero if it is negative (MSB = 1)
 
 ***Input (negative number)***
 
