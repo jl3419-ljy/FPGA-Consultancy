@@ -1,6 +1,6 @@
 # Quantisation (Wenlin Yi)
 <font size = 4>
-Quantisation is applied to the original EPSCN Tensorflow code. There are two quantisation methodes compared to non-quantised model: Quantisation Aware Training(QAT) and post-training quantisation. The different quantised word lengths and data types are also tested. And for the QAT, quantisation on different layers/combination of layers are compared with their peak signal-noise ratio.
+Quantisation is applied to the original EPSCN TensorFlow code. There are two quantisation methods compared to non-quantised model: Quantisation Aware Training(QAT) and post-training quantisation. The different quantised word lengths and data types are also tested. And for the QAT, quantisation on different layers/combination of layers are compared with their peak signal-noise ratio.
 
 ## Key Libraries
 
@@ -18,7 +18,7 @@ Quantisation is applied to the original EPSCN Tensorflow code. There are two qua
 
 - **QAT models:**
   - quantise whole model:
-    This would not work due to the change of dimention of tfmot.quantization.keras.quantize_model(base_model) 
+    This would not work due to the changing of data dimention of running tfmot.quantization.keras.quantize_model(base_model) 
   ![image](https://user-images.githubusercontent.com/46746329/176866920-c959b04e-236e-49aa-adb8-a2095c545637.png)
 
   - quantise layers:
@@ -36,7 +36,7 @@ Quantisation is applied to the original EPSCN Tensorflow code. There are two qua
 - **Performance Metric:**
   Sometime different run returns different average psnr, therefore I took two examples of them.
   ![image](https://user-images.githubusercontent.com/46746329/176866095-6c0a73df-68df-4344-b92c-4b739f244eb2.png)
-  The inference time is sample from the last test image of this random seed. It suggest that quantise the two/one layers before interpolation layer gives the best time/accuracy balance.
+  The inference time is sample from the last test image of this random seed. It suggests that quantising the two/one layers before interpolation layer gives the best time/accuracy balance.
   
 - **Training Performance Graph:**
   ![5baef6e1b81e86919c17a93808c944e](https://user-images.githubusercontent.com/46746329/176866241-9ea1946e-528b-4706-84dd-735394488c56.png)
