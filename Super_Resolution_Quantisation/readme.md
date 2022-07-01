@@ -46,6 +46,6 @@ Quantisation is applied to the original EPSCN TensorFlow code. There are two qua
   
 - **Training Performance Graph:**
 
-These two results are similar because they have the same random seed, means that each train and valid set in each epoch compared to the another run time with the same random seed, is having the exact same images.
+    These two results are similar because they have the same random seed, means that each train and valid set in each epoch compared to the another run time with the same random seed, is having the exact same images.
 
   ![5baef6e1b81e86919c17a93808c944e](https://user-images.githubusercontent.com/46746329/176866241-9ea1946e-528b-4706-84dd-735394488c56.png)
