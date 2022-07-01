@@ -19,3 +19,8 @@ More details on one of the main problems associated with building Pytorch can be
 With building from source not begin feasible at the moment we resorted to using an old build of Pytorch made by our client, This is a full image of the operating system which contains a version of Pytorch 1.2.0 built on top of the PYNQ 2.4 image.
 
 This approach comes with a few drawbacks, such as the profiling library not being available in Pytorch 1.2.0 but as a benchmark for the network performance on the CPU, it is still a decent solution.
+
+On a desktop computer, model inference for 3x upscaling of a 318x198 pixel image takes about 36ms as shown in the picture below.
+
+![image](https://user-images.githubusercontent.com/59969246/176922203-5b5a095d-1464-4bd8-b5c4-a6c500efbad1.png)
+
