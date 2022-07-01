@@ -1,5 +1,8 @@
 # Quantisation (Wenlin Yi)
 <font size = 4>
+
+[source code](https://github.com/Terrortorpe/FPGA-Consultancy/tree/weeblin_quantisation)
+
 Quantisation is applied to the original EPSCN TensorFlow code. There are two quantisation methods compared to non-quantised model: Quantisation Aware Training(QAT) and post-training quantisation. The different quantised word lengths and data types are also tested. And for the QAT, quantisation on different layers/combination of layers are compared with their peak signal-noise ratio.
 
 ## Key Libraries
