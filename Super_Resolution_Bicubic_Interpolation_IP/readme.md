@@ -1,5 +1,5 @@
 # Bicubic interpolation (Wenlin Yi)
-20ns 50MHz
+
 In the ESPCN python code, one of the key feature is it's interpolation and pixels shuffle layer library tf.nn.depth_to_space, the interpolation layer convolute with all channels use tf.nn.depth_to_space to convert into a spacial domain. Due to the complexity and time constrain, ```layers.Conv2D(channels * (upscale_factor**2), 3, **conv_args)``` in hardware is replaced with bicubic interpolation instead. Although bicubic interpolation does not involve any training, but it calculate pixels of new information and is more accurate than linear or nearest neighbour interpolation, and commonly used in industry. 
 
 ## Generating a new pixel depending on the distance to nearest existing pixels
@@ -20,4 +20,5 @@ At edges of the image, there is not enough pixels (16 pixels) to perform the alg
 
 ## Fill all the blocks(unrolled and 28rolled)
 
+20ns 50MHz
 In this module, it takes the inputs as a 1d bus array and then tranfor into a 2d array. Then add padding to the 2d inputs. In the unrolled version, it generated 28*28, 783 generating_blockpixels module in total and aim to generating all of the new pixels in parallel in 1 clock cycle. In the 28rolled version, It uses one generating_blockpixels model for each row of blocks of pixels in parallel, aiming to spend 28 clock cycles to produce a row of blcoks of pixels, and all 28 rows are running inparallel.
