@@ -12,6 +12,7 @@ In this way, it allow us fit this algorithm to any enlarge scales, all the new p
 ## Generating a block of new pixels for one inputs' gap
 
 This block uses the above module to generate all the new pixels in a top-left block between the inputs 5, 6, 9, 10, to fill all the gap in the wanted enlarge scale. To generate a top-left block allows all the block generated inlay well. The following graphs shows example of pixels generated and the enlarge scale is x3 times.
+
 <img src="generating_block.png" alt="generating_block" width="400"/>
 
 ## Padding the inputs
