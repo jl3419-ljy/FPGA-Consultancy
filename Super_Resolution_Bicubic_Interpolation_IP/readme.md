@@ -11,15 +11,16 @@ In this way, it allow us fit this algorithm to any enlarge scales, all the new p
 
 ## Generating a block of new pixels for one inputs' gap
 
-This block uses the above module to generate all the new pixels in a top-left block between the input 5, 6, 9, 10, to fill all the gap in the wantted enlarge scale. To generate a top-left block allows all the block gerenated inlay well.
+This block uses the above module to generate all the new pixels in a top-left block between the inputs 5, 6, 9, 10, to fill all the gap in the wanted enlarge scale. To generate a top-left block allows all the block generated inlay well. The following graphs shows example of pixels generated and the enlarge scale is x3 times.
 <img src="generating_block.png" alt="generating_block" width="400"/>
 
 ## Padding the inputs
 
-At edges of the image, there is not enough pixels (16 pixels) to perform the algothm, therefore, the image is padded by 1, and padding value is taking the nearest neighbour value.
+At edges of the image, there is not enough pixels (16 pixels) to perform the algorithm, therefore, the image is padded by 1 on all eadges, and each padding value is taking its nearest neighbour value.
 
 ## Fill all the blocks(unrolled and 28rolled)
 
-top level config: 20ns 50MHz
+Testing config: 20ns 50MHz
 
-In this module, it takes the inputs as a 1d bus array and then tranfor into a 2d array. Then add padding to the 2d inputs. In the unrolled version, it generated 28*28, 783 generating_blockpixels module in total and aim to generating all of the new pixels in parallel in 1 clock cycle. In the 28rolled version, It uses one generating_blockpixels model for each row of blocks of pixels in parallel, aiming to spend 28 clock cycles to produce a row of blcoks of pixels, and all 28 rows are running inparallel.
+In this module, it takes the inputs as a 1d bus array and then tranform into a 2d array. Then add padding to the 2d inputs. In the unrolled version, it generated 28*28, 783 generating_blockpixels modules in total and aim to generating all of the new pixels in parallel in 1 clock cycle. In the 28rolled version, it uses one generating_blockpixels model for each row of blocks of pixels and all the columns are running in parallel. It is aiming to take 28 clock cycles to produce a row of blocks of pixels, and is same for generating the whole image.
+
