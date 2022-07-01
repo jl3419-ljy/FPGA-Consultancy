@@ -6,4 +6,4 @@ The Python ecosystem has many machine learning frameworks to speed up the develo
 
 There are more than one methods to upscale images using neural networks. For example in a video context, the algorithm may use more than one frame, therefore extracting some temporal data on how objects move between frames in order to improve accuracy. As a proof of concept we chose a method that does not rely on temporal data, thereby reducing complexity but also accuracy. The only input to this network is the low resolution image we want to upscale, and the only output is the upscaled image.
 
-The network we use is based on this paper: [Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network] (https://arxiv.org/abs/1609.05158)
+The network we use is based on this paper: [Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network](https://arxiv.org/abs/1609.05158)
