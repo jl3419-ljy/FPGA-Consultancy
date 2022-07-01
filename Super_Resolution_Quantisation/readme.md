@@ -22,6 +22,8 @@ Quantisation is applied to the original EPSCN TensorFlow code. There are two qua
   ![image](https://user-images.githubusercontent.com/46746329/176866920-c959b04e-236e-49aa-adb8-a2095c545637.png)
 
   - quantise layers:
+  
+  The quantised calculation and quantised figures will carried forward to the follow up layers, earlier layers will accumulate more errors than later layers. And quantising the deterministic layer will have direct impact to the predicted result. Hence the combination of the quantising earlier layer instead of later layer, quantising the enlarge layer instead of the rest of the layer are avoided.
   ![image](https://user-images.githubusercontent.com/46746329/176866857-ec82b45f-f0dc-4c32-a99c-866922e957b2.png)
 
   
