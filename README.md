@@ -58,7 +58,7 @@ More information about data flow between FPGA and CPU can be found [here](https:
 
 <font size = 4>
   
-More information about data flow between FPGA and CPU can be found [here](https://github.com/Terrortorpe/FPGA-Consultancy/tree/clean/Super_Resolution_Bicubic_Interpolation_IP).
+More information about Bicubic Interpolation Hardware IPs can be found [here](https://github.com/Terrortorpe/FPGA-Consultancy/tree/clean/Super_Resolution_Bicubic_Interpolation_IP).
   
 </font>
 
@@ -66,7 +66,7 @@ More information about data flow between FPGA and CPU can be found [here](https:
 
 <font size = 4>
   
-More information about data flow between FPGA and CPU can be found [here](https://github.com/Terrortorpe/FPGA-Consultancy/tree/clean/Super_Resolution_Quantisation).
+More information about quantisasion can be found [here](https://github.com/Terrortorpe/FPGA-Consultancy/tree/clean/Super_Resolution_Quantisation).
   
 </font>
 
