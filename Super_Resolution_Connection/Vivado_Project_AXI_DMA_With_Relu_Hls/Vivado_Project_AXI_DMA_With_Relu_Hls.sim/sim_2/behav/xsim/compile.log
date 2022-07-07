@@ -1,0 +1,30 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/e2/axi_dma/axi_dma.gen/sources_1/bd/axi_dma/ip/axi_dma_processing_system7_0_0/sim/axi_dma_processing_system7_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_dma_processing_system7_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/e2/axi_dma/axi_dma.gen/sources_1/bd/axi_dma/ip/axi_dma_axis_data_fifo_0_0/sim/axi_dma_axis_data_fifo_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_dma_axis_data_fifo_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/e2/axi_dma/axi_dma.gen/sources_1/bd/axi_dma/sim/axi_dma.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_dma
+INFO: [VRFC 10-311] analyzing module axi_dma_axi_mem_intercon_0
+INFO: [VRFC 10-311] analyzing module axi_dma_axi_mem_intercon_1_0
+INFO: [VRFC 10-311] analyzing module axi_dma_ps7_0_axi_periph_0
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_1LXVDE6
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_1Q0QA18
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_3GTJVW
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/e2/axi_dma/axi_dma.gen/sources_1/bd/axi_dma/ip/axi_dma_auto_pc_0/sim/axi_dma_auto_pc_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_dma_auto_pc_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/e2/axi_dma/axi_dma.gen/sources_1/bd/axi_dma/ip/axi_dma_auto_ds_0/sim/axi_dma_auto_ds_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_dma_auto_ds_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/e2/axi_dma/axi_dma.gen/sources_1/bd/axi_dma/ip/axi_dma_auto_pc_1/sim/axi_dma_auto_pc_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_dma_auto_pc_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/e2/axi_dma/axi_dma.gen/sources_1/bd/axi_dma/ip/axi_dma_auto_ds_1/sim/axi_dma_auto_ds_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_dma_auto_ds_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/e2/axi_dma/axi_dma.gen/sources_1/bd/axi_dma/ip/axi_dma_auto_pc_2/sim/axi_dma_auto_pc_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_dma_auto_pc_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/e2/axi_dma/axi_dma.gen/sources_1/bd/axi_dma/hdl/axi_dma_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_dma_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/e2/axi_dma/axi_dma.sim/sim_2/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/e2/axi_dma/axi_dma.gen/sources_1/bd/axi_dma/ip/axi_dma_axi_dma_0_0/sim/axi_dma_axi_dma_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'axi_dma_axi_dma_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/e2/axi_dma/axi_dma.gen/sources_1/bd/axi_dma/ip/axi_dma_rst_ps7_0_100M_0/sim/axi_dma_rst_ps7_0_100M_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'axi_dma_rst_ps7_0_100M_0'
