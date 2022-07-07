@@ -54,6 +54,21 @@ More information about data flow between FPGA and CPU can be found [here](https:
 </font>
 
 
+## Bicubic Interpolation IPs
+
+<font size = 4>
+  
+More information about Bicubic Interpolation Hardware IPs can be found [here](https://github.com/Terrortorpe/FPGA-Consultancy/tree/clean/Super_Resolution_Bicubic_Interpolation_IP).
+  
+</font>
+
+## Quantisasion
+
+<font size = 4>
+  
+More information about quantisasion can be found [here](https://github.com/Terrortorpe/FPGA-Consultancy/tree/clean/Super_Resolution_Quantisation).
+  
+</font>
 
 ## References
 <font size = 2>
